@@ -1,0 +1,41 @@
+#include <stdio.h>
+int main(void)
+{
+	int A, B, C;
+	int Prize;
+	scanf("%d %d %d", &A, &B, &C);
+	if (A == B && A == C) {
+		Prize = 10000 + (A * 1000);
+		printf("%d", Prize);
+	}
+	else if ((A == B && A != C) || (A == C && A != B))
+	{
+		Prize = 1000 + (A * 100);
+		printf("%d", Prize);
+	}
+	else if (B == C && B != A)
+	{
+		Prize = 1000 + (B * 100);
+		printf("%d", Prize);
+	}
+	else if (A != B && B != C && C != A)
+	{
+		if (A > B && A > C)
+		{
+			Prize = A * 100;
+			printf("%d", Prize);
+
+		}
+		else if (B > C && B > A)
+		{
+			Prize = B * 100;
+			printf("%d", Prize);
+		}
+		else if (C > A && C > B)
+		{
+			Prize = C * 100;
+			printf("%d", Prize);
+		}
+	}
+	return 0;
+}
