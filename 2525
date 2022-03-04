@@ -1,6 +1,11 @@
 #include <stdio.h>
 int main(void)
 {
+	/*
+		B와 C를 더한 값이 60을 넘는 경우 와 넘지 않는 경우 전자의 경우 A에 B의 몫을 더하고 
+		이 더한 값이 24를 넘는 경우와 넘지 않는 경우로
+		if 조건문을 작성한다.
+	*/
 	int A, B;
 	int C;
 	scanf("%d %d", &A, &B);
