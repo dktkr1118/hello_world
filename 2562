@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(void)
+{
+	int N, max=0, Pos;
+	for (int i = 1; i <= 9; i++) {
+		scanf("%d", &N);
+		if (N > max) {
+			max = N;
+			Pos = i;
+		}
+	}
+	printf("%d\n%d", max, Pos);
+
+	return 0;
+}
