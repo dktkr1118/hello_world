@@ -1,0 +1,45 @@
+#include <stdio.h>
+int main(void)
+{
+	int A, B, C; // A,B,C는 모두 100보다 크거나 같고, 1,000보다 작은 자연수다.
+	int result; // result 의 값은 10의 자리수를 넘어가지않는다 999*999*999 = 997,002,999
+	int num[10] = { 0 };
+
+	scanf("%d", &A);
+	scanf("%d", &B);
+	scanf("%d", &C);
+	
+	result = A * B * C;
+
+	/* Ex)
+	* A = 100 B = 100 C = 100
+	* result = 1,000,000
+	* 
+	* result % 10 = 0
+	* num[0]++
+	* reslut / 10 = 100,000
+	* 
+	* result % 10 = 0
+	* num[0]++
+	* .
+	* .
+	* .
+	* result % 10 = 1
+	* num[1]++
+	* 
+	* printf("%d\n", num[i]);
+	* 6, num[0]
+	* 1, num[1]
+	*/
+
+	while (result > 0)
+	{
+		num[result % 10]++; 
+		result /= 10;
+	}
+	
+	for (int i = 0; i < 10; i++) {
+		printf("%d\n", num[i]);
+	}
+	return 0;
+}
