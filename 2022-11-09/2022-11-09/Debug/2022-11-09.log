@@ -1,0 +1,3 @@
+﻿  SW-13038.cpp
+C:\Users\user\Desktop\Hello_World\2022-11-09\2022-11-09\SW-13038.cpp(8,6): warning C4101: 'cnt' :참조되지 않은 지역 변수입니다.
+  2022-11-09.vcxproj -> C:\Users\user\Desktop\Hello_World\2022-11-09\Debug\2022-11-09.exe

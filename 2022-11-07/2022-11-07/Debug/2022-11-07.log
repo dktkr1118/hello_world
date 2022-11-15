@@ -1,0 +1,5 @@
+﻿  SW-13428.cpp
+C:\Users\user\Desktop\Hello_World\2022-11-07\2022-11-07\SW-13428.cpp(28,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Hello_World\2022-11-07\2022-11-07\SW-13428.cpp(30,26): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Hello_World\2022-11-07\2022-11-07\SW-13428.cpp(16,6): warning C4101: 'len' :참조되지 않은 지역 변수입니다.
+  2022-11-07.vcxproj -> C:\Users\user\Desktop\Hello_World\2022-11-07\Debug\2022-11-07.exe

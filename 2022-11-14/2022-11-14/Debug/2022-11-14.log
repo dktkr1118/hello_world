@@ -1,0 +1,4 @@
+﻿  SW-10912.cpp
+C:\Users\user\Desktop\Hello_World\2022-11-14\2022-11-14\SW-10912.cpp(15,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\Desktop\Hello_World\2022-11-14\2022-11-14\SW-10912.cpp(37,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  2022-11-14.vcxproj -> C:\Users\user\Desktop\Hello_World\2022-11-14\Debug\2022-11-14.exe

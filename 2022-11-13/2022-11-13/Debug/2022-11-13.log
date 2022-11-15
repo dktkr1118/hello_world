@@ -1,0 +1,3 @@
+﻿  SW-14361.cpp
+C:\Users\user\Desktop\Hello_World\2022-11-13\2022-11-13\SW-14361.cpp(10,6): warning C4101: 'arr' :참조되지 않은 지역 변수입니다.
+  2022-11-13.vcxproj -> C:\Users\user\Desktop\Hello_World\2022-11-13\Debug\2022-11-13.exe
